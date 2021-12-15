@@ -218,9 +218,14 @@ body {
   color: var(--secondary-text-color);
   padding-left: 20px;
   }
+.experiences__company-project-responsibilities li a{
+  text-decoration: none;
+  color: var(--secondary-text-color);
+  cursor: pointer;
+  }
 
 .additional-info {
-  flex: 1 1 40%;
+  flex: 0 1 40%;
   }
 
 .additional-info__education {
