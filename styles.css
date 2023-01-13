@@ -27,12 +27,14 @@ body {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    margin-bottom: 20px;
+
 }
 
 .fv {
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    /*justify-content: space-between;*/
 }
 
 .resume {
@@ -58,6 +60,7 @@ body {
 
     .contact_info_container {
         align-items: center;
+
     }
 
     .contact-info__block:not(:last-child) {
@@ -94,6 +97,9 @@ body {
 
 .contact-info__block--center {
     justify-content: center;
+    background: url("assets/hat.png") right top no-repeat;
+    padding-top: 20px;
+
 }
 
 .contact-info__item {
@@ -135,6 +141,7 @@ body {
 .intro {
     display: flex;
     justify-content: start;
+    margin-bottom: 20px;
 }
 
 .intro__icon-wrapper {
@@ -167,6 +174,7 @@ body {
 .skills__text {
     color: var(--secondary-text-color);
     text-align: justify;
+    margin-bottom: 20px;
 }
 /*Experience and additonal info styles*/
 .experiences {
@@ -262,4 +270,12 @@ body {
 .additional-info__languages-item {
     color: var(--secondary-text-color);
 }
+.footer {
+    margin: 0 auto;
+    padding: 0 30px;
+    max-width: 900px;
 
+}
+.footer_wrapper{
+    text-align: center;
+}
